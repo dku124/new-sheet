@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-size: 14px;
+}
+.ant-dropdown-menu{
+  width: 200px;
+}
+.ant-dropdown-menu-item{
+  padding-block: 1rem;
+}
+.ant-dropdown-menu-title-content{
+  font-size: 15px;
+
+}
+.dsg-container{
+  height: auto !important;
+  /* min-height: 400px !important; */
+}
+.dsg-cell-header{
+  justify-content: center;
+}
+
+.side_nav span i{font-size: 1.2rem;}
